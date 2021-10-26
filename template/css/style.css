@@ -1,0 +1,144 @@
+/*googleSans light 300 + regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+html {
+    height: 1200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#telenummer {
+    float: right;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.linie {
+    color: black;
+}
+
+.body {
+    border-radius: 0px;
+}
+
+/*img und searchbar*/
+#logobild{
+  width: 75%;
+  height: auto;
+}
+#search {
+    margin-top: 20px;
+}
+
+
+
+/*navbar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #086738;
+    padding-left: 13rem;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.125rem 2.5rem 1.125rem 2.5rem;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #8ec63f;
+    text-decoration: none;
+    color: white;
+  }
+  
+nav .active {
+    background-color: #8ec63f;
+    text-decoration: none;
+    color: white;
+  }
+nav .active:hover {
+    text-decoration: none;
+    color: white;
+  }
+nav li:not(:last-child) { 
+    border-right:solid 1px #fff;/* This will not give border to last li element */
+}
+
+/*hintergrundbild usw.*/
+.carousel-indicators li {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: unset;
+}
+.carousel-caption {
+  background-color: #086738;
+  padding: 1rem;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 45%;
+  bottom: 13%;
+  margin-left: 13.5%;
+}
+@media (max-width: 768px) {
+  .carousel-caption { visibility: hidden;}
+  #logobild { height: auto; width: 200px;}
+}
+
+/*Aktuelles:*/
+.titelText {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #086738;
+}
+
+.untertitelText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #086738;
+}
+.text-muted {
+  font-size: 1rem;
+}
+
+/*Kontakt-formular*/
+#contactform {
+  margin-top: 4rem;
+  /*margin-left: 20.25rem;*/
+}
+
+
+/*footer*/
+footer {
+  padding-top: 1.25rem;
+  color: white;
+  margin-top: 10rem;
+  background-color: #7b7978;
+  padding-bottom: 3rem;
+}
+.titelfooter {
+  font-weight: 550;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.textfooter {
+  font-size: 0.9rem;
+}
+.sitemap li a {
+  color: white;
+  text-decoration: none;
+}
+.sitemap li {
+  border-bottom: 1px solid white;;
+}
